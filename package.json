@@ -9,10 +9,14 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
     "expo": "~54.0.23",
     "expo-status-bar": "~3.0.8",
     "react": "19.1.0",
-    "react-native": "0.81.5"
+    "react-hook-form": "^7.66.0",
+    "react-native": "0.81.5",
+    "react-native-safe-area-context": "~5.6.0",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@types/react": "~19.1.0",

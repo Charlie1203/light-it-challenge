@@ -1,0 +1,14 @@
+[
+	{
+		"id": "1",
+		"firstName": "car",
+		"lastName": "lap",
+		"birthDate": "11/08/2000",
+		"gender": "Male",
+		"email": "car@gmail.com",
+		"phone": "1123216405",
+		"address": "Bella Vista",
+		"conditions": "diabetes",
+		"notes": "in recovery"
+	}
+]
