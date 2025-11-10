@@ -50,19 +50,19 @@ This organization separates UI, data, and types clearly while keeping the codeba
 
 # API & data
 
-Patient data comes from the public MockAPI endpoint:
+Patient data comes from the public MockAPI endpoint provided:
 https://63bedcf7f5cfc0949b634fc8.mockapi.io/users
 
 I used environment variables (EXPO_PUBLIC_API_BASE_URL, EXPO_PUBLIC_API_PATIENTS_PATH) to keep config outside the code.
 The app loads patients on mount and lets you add or edit them locally — no backend persistence, as requested.
 
-🧾 Forms & Validation
+# Forms & Validation
 
 Forms use react-hook-form with Zod for simple schema validation, to make sure each entry is complete and valid before saving.
 
-🎨 UI & Styling
+# UI & Styling
 
-Everything is styled by hand with React Native’s StyleSheet — no UI libraries.
+Everything is styled by hand with React Native’s StyleSheet; no UI libraries.
 I aimed for a clean layout with:
 
 Expandable patient cards
@@ -71,9 +71,9 @@ A modal form for add/edit
 
 A small loader and toast notifications for feedback
 
-⚙️ Design Choices
+# Design Choices
 
 Kept it on a single screen for simplicity.
 Used a modal instead of a new route for better flow.
 Environment variables for structure.
-And no external UI libs — all components are custom.
+And no external UI libs; all components are custom.
