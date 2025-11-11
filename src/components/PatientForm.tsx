@@ -26,7 +26,7 @@ const schema = z.object({
 		),
 	gender: z.enum(["male", "female", "other", "prefer_not_to_say"]),
 	address: z.string().optional(),
-	conditions: z.string().optional(), // coma-separated
+	conditions: z.string().optional(), 
 	notes: z.string().optional(),
 });
 
